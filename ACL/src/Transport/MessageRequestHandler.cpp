@@ -43,7 +43,7 @@ using namespace avsCommon::utils::power;
 const static std::string AVS_EVENT_URL_PATH_EXTENSION = "/v20160207/events";
 
 /// Boundary for mime encoded requests
-const static std::string MIME_BOUNDARY = "WhooHooZeerOoonie=";
+const static std::string MIME_BOUNDARY = "WhooHooZeerOoonieEqualSign";
 
 /// Timeout for transmission of data on a given stream
 static const std::chrono::seconds STREAM_PROGRESS_TIMEOUT = std::chrono::seconds(15);
